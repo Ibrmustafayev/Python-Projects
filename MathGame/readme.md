@@ -1,4 +1,3 @@
-Add files via upload
 🧮 Math Quiz Game (Python)
 A console-based math quiz game written in Python.
 The game is divided into multiple stages with increasing difficulty, scoring rules, and a final high-risk End Game question.
