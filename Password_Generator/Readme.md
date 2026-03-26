@@ -1,53 +1,60 @@
-🔐 Password Generator (Python + Colorama)
-A secure and customizable password generator built with Python.
-This console-based tool allows users to generate strong passwords by selecting length and character types, with input validation and colored terminal output for better user experience.
-This project was created for learning and practice purposes, focusing on clean logic, user interaction, and error handling.
+# 🔐 Password Generator — Secure Random Password Tool
 
-🧠 Project Overview
-The Password Generator helps users create passwords based on their preferences:
--Password length
--Uppercase letters
--Digits
--Special characters
-The program ensures:
--The password meets the minimum length requirement
--Required character types are included when selected
--Errors are handled gracefully
--Output is clearly displayed using colored text
+<p align="center">
+  <b>A lightweight and customizable password generator built with Python.</b><br>
+  <i>Designed to create strong, unpredictable passwords for better security.</i>
+</p>
 
-✨ Features
-Custom password length (minimum 4 characters)
-Optional inclusion of:
-    Uppercase letters
-    Digits
-    Special characters
-Guaranteed inclusion of selected character types
-Randomized password generation
-Input validation with clear error messages
-Colored terminal output using Colorama
-Simple and user-friendly interface
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Security-Focused-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Type%3A%20CLI-informational?style=for-the-badge">
+</p>
 
-⚙️ How It Works
-The user enters the desired password length
-The program validates the input:
-    Must be a number
-    Must be at least 4
-The user selects which character types to include
-The program:
-    Ensures selected character types appear at least once
-    Fills the remaining length randomly
-    Shuffles characters for better randomness
-The final password is displayed in green
+---
 
-🧰 Technologies Used
-Python 3
-  Standard libraries:
-    random
-    string
-  External library:
-    colorama (for colored terminal output)
+## 📌 Overview
 
-📌 Notes
-The program uses the random module, which is suitable for learning purposes
-Passwords are generated randomly and shuffled to improve unpredictability
-Colored output improves readability but is optional
+The **Password Generator** is a command-line Python application that generates strong and random passwords based on user-defined criteria.
+
+Strong passwords are essential for protecting personal data and accounts, as weak passwords are easily guessable and vulnerable to attacks :contentReference[oaicite:0]{index=0}.
+
+This project demonstrates how randomness and character diversity can be used to build secure password systems.
+
+---
+
+## ✨ Features
+
+- 🔢 Custom password length  
+- 🔤 Combination of letters (A–Z, a–z)  
+- 🔐 Includes numbers and special characters  
+- ⚡ Fast and simple CLI interaction  
+- 🎯 Generates unpredictable passwords  
+
+---
+
+## 🧠 How It Works
+
+1. User inputs desired password length  
+2. Program generates random characters  
+3. Characters are combined into a secure password  
+4. Final password is displayed instantly  
+
+The generator uses randomness to select characters, ensuring that each password is unique and difficult to guess :contentReference[oaicite:1]{index=1}.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3  
+- **Core Concept:** Randomization  
+- **Interface:** Command Line  
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Ibrmustafayev/Python-Projects.git
+cd Python-Projects/Password_Generator
+python Password_Generator.py
