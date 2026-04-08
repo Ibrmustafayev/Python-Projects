@@ -28,6 +28,7 @@ This repository contains my high-level Python projects, focusing on logic, modul
 | 🔢 Simplifier vRoman | Simplifies or converts numbers to Roman numerals | ✅ Complete |
 | ✅ ToDoList | A task management app to track your to-dos | ✅ Complete |
 | 🌤️ Weather Project | Fetches and displays real-time weather data | ✅ Complete |
+| 📚 Study Session Tracker | Logs study sessions by subject with stats and motivational quotes | ✅ Complete |
 
 ---
 
@@ -58,6 +59,7 @@ Python-Projects/
 ├── Simplifier_vRoman/
 ├── ToDoList/
 ├── Weather_Project/
+├── Study_Session_Tracker/
 └── README.md
 ```
 
